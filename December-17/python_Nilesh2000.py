@@ -16,9 +16,10 @@ def magic_odd(N, M):  # Odd
     return mat
 
 
-n = int(input('Enter the Order: '))
-m = int(input('Enter the Magic Sum: '))
-
+#n = int(input('Enter the Order: '))
+#m = int(input('Enter the Magic Sum: '))
+n =3
+m = 15
 
 def magic_four(N, M):  # Multiples of 4
     mat = np.zeros((N, N), dtype=int)
